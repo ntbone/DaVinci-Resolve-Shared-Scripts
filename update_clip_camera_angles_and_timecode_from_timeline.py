@@ -207,7 +207,7 @@ def SomethingElse(mediaPool, timeLine, frameRate, destinationFolder):
     return 
 
 def SomeFunction(currentProject, mediaPool, timeLine, destinationFolder):
-    frameRate = currentProject.GetSetting('timelineFrameRate')
+    frameRate = timeline.GetSetting('timelineFrameRate')
     print("Frame rate is ", frameRate)    
 
     if timeLine is not None:
